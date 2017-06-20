@@ -1,0 +1,21 @@
+The Java Architecture :
+
+	JDK
+	   |
+	   |
+	JRE
+	   |
+	   |
+	JVM
+	
+
+	Java is a platform independent ,But Jvm is platform dependent .
+
+	Java development kit is a software development environment where we can develop java applications and applets.
+Java developers have two JDK tools  java and javac which are run in command prompt.
+The java programs are writtened in notepad and save with an extension of .java .
+
+	Java Runtime Environment provides runtime environment and implement JVM. Jre contains set of libraries and other files of jvm which are used to run a program.
+JRE compile  ".java" file into byte code that is stored into ".class" file . This byte code is non-readable.
+	Java Virtual Machine is a part of JRE .Jvm is platform dependent .In Jvm the ".class" file is loaded into class loader and this class loader reads the .class file to generate the binary data ,this data is saved.
+The generated binary code is run to get the out put.
